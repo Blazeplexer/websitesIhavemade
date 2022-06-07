@@ -1,0 +1,113 @@
+/* Elements for this page */
+div.border{
+	border-style: solid;
+	border-color: grey;
+	border-width: thin;
+	width: auto;
+	height: auto;
+	margin: 100px;
+	display: block;
+}
+h1.title{
+    color: white;
+    font-family: Microsoft Yahei;
+    text-align: center;
+}
+.title{
+    color: white;
+    font-family: Microsoft Yahei;
+    text-align: center;
+}
+
+.submit{
+    color: white;
+    background-color: red;
+    font-family: Microsoft Yahei;
+}
+
+/* Elements for this page ends */
+
+/* Elements for all pages */
+
+body{
+    background-color:#152238;
+    font-family: Microsoft Yahei;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+}
+
+a.login{
+    float: right;
+	margin-top: 10px;
+	margin-right: 100px;
+	text-align:right;
+    display:block;
+    font-family: Microsoft Yahei;
+    text-decoration: none;
+    cursor: pointer;
+    color:red;
+}
+a.reg{
+    float: right;
+	margin-top: 10px;
+	margin-right: -130px;
+	text-align:right;
+    display:block;
+    font-family: Microsoft Yahei;
+    text-decoration: none;
+    cursor: pointer;
+    color:red;
+}
+
+a.jerseyScans{
+    font-family: Microsoft Yahei;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.comic{
+    font-family: Microsoft Yahei;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 15px;
+    color:red;
+}
+a.jerseyScans:visited { 
+    text-decoration: none; 
+    color: white
+}
+a:visited { 
+    text-decoration: none; 
+    color: red
+}
+a:hover { 
+    text-decoration: none; 
+}
+a:focus { 
+    text-decoration: none; 
+}
+a:hover, a:active { 
+    text-decoration: none; 
+}
+
+a:visited { 
+    text-decoration: none; color:red
+}
+
+a:link
+{
+    text-decoration: none;
+
+}
+a.jerseyScans:link { 
+    text-decoration: none; 
+    color: white
+}
+
+td{
+    color: red;
+}
+
+/* Elements for all pages end here*/

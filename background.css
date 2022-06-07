@@ -1,0 +1,404 @@
+div.header{
+	height: 40px;
+	width: 100%;
+}
+body{
+	background-color:#152238;
+}
+img{
+	height: 50px;
+	width: 100px;
+}
+div.mangaOne{
+	margin: auto;
+	height: 424px;
+	width: 307px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 150px;
+	background-color: red;
+	background-image: url("Manga_Cover_Art/Jujutsu_kaisen.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	
+}
+.photoOne{
+	background-image: url("Manga_Cover_Art/Jujutsu_kaisen.jpg");
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+
+    width: 100%;
+    height: 100%;
+  
+    cursor: pointer;
+    
+}
+.photoTwo{
+	background-image: url("Manga_Cover_Art/Kill_The_Hero cover art .jpeg");
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+
+    width: 100%;
+    height: 100%;
+  
+    cursor: pointer;
+    
+}
+.photoThree{
+	background-image: url("Manga_Cover_Art/Mashle.png");
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+
+    width: 100%;
+    height: 100%;
+  
+    cursor: pointer;
+    
+}
+.photoFour{
+	background-image: url("Manga_Cover_Art/My Dad Is Too Strong.png");
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+
+    width: 100%;
+    height: 100%;
+  
+    cursor: pointer;
+    
+}
+.photoFive{
+	background-image: url("Manga_Cover_Art/Nande_Koko_ni_Sensei_ga_volume_1_cover.png");
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+
+    width: 100%;
+    height: 100%;
+  
+    cursor: pointer;
+    
+}
+.photoSix{
+	background-image: url("Manga_Cover_Art/Peerless Dad .jpg");
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+
+    width: 100%;
+    height: 100%;
+  
+    cursor: pointer;
+    
+}
+.photoSeven{
+	background-image: url("Manga_Cover_Art/Switch (Atsushi Namikiri).jpg");
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+
+    width: 100%;
+    height: 100%;
+  
+    cursor: pointer;
+    
+}
+.photoEight{
+	background-image: url("Manga_Cover_Art/Terra Formars.jpg");
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+
+    width: 100%;
+    height: 100%;
+  
+    cursor: pointer;
+    
+}
+.photoNine{
+	background-image: url("Manga_Cover_Art/The Gamer.jpg");
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+
+    width: 100%;
+    height: 100%;
+  
+    cursor: pointer;
+    
+}
+.photoTen{
+	background-image: url("Manga_Cover_Art/The Undefeatable Swordsman.png");
+	background-size:100% 100%;
+    background-repeat: no-repeat;
+	background-position: center;
+	display: inline-block;
+
+    width: 100%;
+    height: 100%;
+  
+    cursor: pointer;
+    
+}
+
+div.mangaTwo{
+	margin: auto;
+	height: 424px;
+	width: 307px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 150px;
+	background-image: url("Manga_Cover_Art/Kill_The_Hero cover art .jpeg");
+	background-repeat: no-repeat;
+	background-color: red;
+	background-size:100% 100%;
+}
+div.mangaThree{
+	margin: auto;
+	height: 424px;
+	width: 307px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 150px;
+	background-image: url("Manga_Cover_Art/Mashle.png");
+	background-repeat: no-repeat;
+	background-color: red;
+	background-size:100% 100%;
+}
+div.mangaFour{
+	margin: auto;
+	height: 424px;
+	width: 307px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 150px;
+	background-image: url("Manga_Cover_Art/My Dad Is Too Strong.png");
+	background-repeat: no-repeat;
+	background-color: red;
+	background-size:100% 100%;
+}
+div.mangaFive{
+	margin: auto;
+	height: 424px;
+	width: 307px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 150px;
+	background-image: url("Manga_Cover_Art/Nande_Koko_ni_Sensei_ga_volume_1_cover.png");
+	background-repeat: no-repeat;
+	background-color: red;
+	background-size:100% 100%;
+}
+
+div.mangaSix{
+	background-color: red;
+	float: left;
+	margin-top: 150px;
+	margin-left: 60px;
+	background-image: url("Manga_Cover_Art/Peerless Dad .jpg");
+	background-repeat: no-repeat;
+	height: 424px;
+	width: 307px;
+	background-size:100% 100%;
+
+}
+div.mangaSeven{
+	background-color: red;
+	float: left;
+	margin-top: 150px;
+	margin-left: 60px;
+	height: 424px;
+	width: 307px;
+	background-image: url("Manga_Cover_Art/Switch (Atsushi Namikiri).jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+div.mangaEight{
+	background-color: red;
+	float: left;
+	margin-top: 150px;
+	margin-left: 60px;
+	height: 424px;
+	width: 307px;
+	background-image: url("Manga_Cover_Art/Terra Formars.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+div.mangaNine{
+	background-color: red;
+	float: left;
+	margin-top: 150px;
+	margin-left: 60px;
+	height: 424px;
+	width: 307px;
+	background-image: url("Manga_Cover_Art/The Gamer.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+div.mangaTen{
+	background-color: red;
+	float: left;
+	margin-top: 150px;
+	margin-left: 60px;
+	height: 424px;
+	width: 307px;
+	background-image: url("Manga_Cover_Art/The Undefeatable Swordsman.png");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+div.photoGallery{
+	background-color: red;
+	margin: auto;
+	width: 1017px;
+	height: 443px;
+	margin-top: 150px;
+	background-image: url("Manga_Cover_Art/JerseyScans.png");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+
+}
+div.textOne{
+	clear: both;
+	float: left;
+	margin-top: 20px;
+	margin-right: -100px;
+	height: 100px;
+	width: 307px;
+	font-family: Microsoft Yahei;
+	text-align: center;
+	color: red;
+}
+
+
+a.login{
+	margin-top: -15px;
+	margin-right: 90px;
+	text-align:right;
+	display:block;
+	color: red;
+}
+a.register{
+	margin-top: -19px;
+	margin-right: 15px;
+	text-align:right;
+	display:block;
+	color: red;
+}
+/* Added content */
+
+
+p.description{
+	text-align: left;
+	color: white;
+}
+
+div.description{
+	
+	height: 300px;
+	width: 800px;
+
+	
+	margin-top: 200px;
+	background-color: red;
+	background-image: url("Manga_Cover_Art/Jujutsu_kaisen.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	float: left;
+	margin-left: 300px;
+	
+	
+}
+div.jujutsu{
+	margin: auto;
+	height: 424px;
+	width: 307px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 200px;
+	background-color: red;
+	background-image: url("Manga_Cover_Art/Jujutsu_kaisen.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+div.textJujutsu{
+	clear: both;
+	float: left;
+	margin-top: 20px;
+	margin-right: -100px;
+	height: 100px;
+	width: 307px;
+	font-family: Microsoft Yahei;
+	text-align: center;
+	color: red;
+}
+a.jerseyScans{
+    font-family: Microsoft Yahei;
+    text-decoration: none;
+	cursor: pointer;
+	color: red;
+}
+a.comic{
+    font-family: Microsoft Yahei;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 15px;
+    color:red;
+}
+a.jerseyScans:visited { 
+    text-decoration: none; 
+    color: white
+}
+a:visited { 
+    text-decoration: none; 
+    color: red
+}
+a:hover { 
+    text-decoration: none; 
+}
+a:focus { 
+    text-decoration: none; 
+}
+a:hover, a:active { 
+    text-decoration: none; 
+}
+
+a:visited { 
+    text-decoration: none; color:red
+}
+.submit{
+    color: white;
+    background-color: red;
+    font-family: Microsoft Yahei;
+
+}
+.chapters{
+    font-family: Microsoft Yahei;
+    text-decoration: none;
+    cursor: pointer;
+    color:white;
+}
+a.chapters:visited { 
+    text-decoration: none; 
+    color: white;
+}
+a:link
+{
+    text-decoration: none;
+
+}
+a.jerseyScans:link { 
+    text-decoration: none; 
+    color: white
+}

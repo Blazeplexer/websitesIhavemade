@@ -1,0 +1,250 @@
+div.border{
+	border-style: solid;
+	border-color: grey;
+	border-width: thin;
+	width: 600px;
+	height: 200px;
+	margin: auto;
+	display: block;
+	
+	
+	
+}
+div.borderRegister{
+	border-style: solid;
+	border-color: grey;
+	border-width: thin;
+	width: 600px;
+	height: 300px;
+	margin: auto;
+	display: block;
+	
+	
+	
+}
+
+
+#cwrap .crow {
+    border: 1px solid #e4d9d9;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  #cwrap .chead {
+    margin-bottom: 10px;
+  }
+  #cwrap .cname {
+    color: white;
+    font-weight: bold;
+  }
+  #cwrap .ctime {
+    color:white;
+    font-size: 0.95em;
+  }
+  #cwrap .cmsg {
+    font-size: 1.1em;
+    color: white;
+  }
+  
+
+  #cadd {
+   
+
+    padding: 15px;
+  }
+  #cadd h1 {
+    font-size: 1.3em;
+  }
+  #cadd input[type=text], #cadd textarea {
+    box-sizing: border-box;
+    width: 50%;
+    margin: 5px 0;
+    padding: 10px;
+    resize: none;
+  }
+  #cadd input[type=submit] {
+    background: red;
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  html, body, input, textarea {
+    font-family: Microsoft Yahei;
+  }
+h1{
+    color: white;
+}
+/* Added content */
+
+
+p.description{
+	text-align: left;
+    color: white;
+    font-family: Microsoft Yahei;
+}
+
+div.description{
+	height: 100px;
+	width: 800px;
+	margin-top: 200px;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	float: left;
+    margin-left: 300px;
+    color: white;
+    font-family: Microsoft Yahei;
+	
+}
+div.manga{
+	margin: auto;
+	height: 424px;
+	width: 307px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 200px;
+	background-image: url("Manga_Cover_Art/image.png");
+	background-repeat: no-repeat;
+    background-size:100% 100%;
+    font-family: Microsoft Yahei;
+}
+div.mangaText{
+	clear: both;
+	float: left;
+	margin-top: 20px;
+	margin-right: -100px;
+	height: 100px;
+	width: 307px;
+	font-family: Microsoft Yahei;
+	text-align: center;
+    color: red;
+}
+
+div.header{
+	height: 40px;
+	width: 100%;
+}
+body{
+	background-color:#152238;
+}
+
+a.login{
+    float: right;
+	margin-top: 10px;
+	margin-right: 100px;
+	text-align:right;
+    display:block;
+    font-family: Microsoft Yahei;
+    text-decoration: none;
+    cursor: pointer;
+    color:red;
+}
+a.reg{
+    float: right;
+	margin-top: 10px;
+	margin-right: -130px;
+	text-align:right;
+    display:block;
+    font-family: Microsoft Yahei;
+    text-decoration: none;
+    cursor: pointer;
+    color:red;
+}
+
+.photoOne img{
+ height: 100%;
+ width: 100%;
+}
+div.volumeChapter{
+    margin: auto;
+	height: 1000px;
+	width: 1000px;
+	float: right;
+	margin-right: 200px;
+	margin-top: 500px;
+	background-size:100% 100%;
+}
+div.commentSection{
+    margin: auto;
+	height: 400px;
+	width: 2000px;
+	float: left;
+    margin-top: auto;
+    background-size:100% 100%;
+}
+h2.commentSection{
+    color: white;
+    font-family: Microsoft Yahei;
+   
+}
+h3.volumeChapter
+{
+    color: white;
+    text-align: left;
+    font-family: Microsoft Yahei;
+}
+ul.volumeChapter{
+    color: white;
+    text-align: center;
+    font-family: Microsoft Yahei;
+    list-style-type: none;
+    line-height: 60px;
+}
+a.jerseyScans{
+    font-family: Microsoft Yahei;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.comic{
+    font-family: Microsoft Yahei;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 15px;
+    color:red;
+}
+a.jerseyScans:visited { 
+    text-decoration: none; 
+    color: white
+}
+a:visited { 
+    text-decoration: none; 
+    color: red
+}
+a:hover { 
+    text-decoration: none; 
+}
+a:focus { 
+    text-decoration: none; 
+}
+a:hover, a:active { 
+    text-decoration: none; 
+}
+
+a:visited { 
+    text-decoration: none; color:red
+}
+.submit{
+    color: white;
+    background-color: red;
+    font-family: Microsoft Yahei;
+
+}
+.chapters{
+    font-family: Microsoft Yahei;
+    text-decoration: none;
+    cursor: pointer;
+    color:white;
+}
+a.chapters:visited { 
+    text-decoration: none; 
+    color: white;
+}
+a:link
+{
+    text-decoration: none;
+
+}
+a.jerseyScans:link { 
+    text-decoration: none; 
+    color: white
+}

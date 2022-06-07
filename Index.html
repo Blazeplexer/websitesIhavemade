@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html>
+
+<head> 
+
+<title> Index </title>
+
+<link href="background.css" rel='stylesheet' type='text/css' />
+
+<link href="gallery.css" rel='stylesheet' type='text/css' />
+
+</head>
+
+<body>
+
+<div class = "header">
+
+	<a href="Index.html" class = "jerseyScans">JerseyScans</a>
+
+	<a href="Index.html" class="comic">Comics</a>
+ 
+	<a href="Login/login.php" class = "login">Login</a>
+
+	<a href="Login/register.php" class = "register">Register</a>
+
+</div>
+
+<!-- Beginning of Slideshow gallery-->
+
+<div class="slideshow-container">
+
+
+
+	<div class="mySlides fade">
+
+		<img id="Js" src="Slideshow art/Jercey_Scans.jpg">
+
+	</div>
+
+
+
+	<div class="mySlides fade">
+
+		<img id ="Js"src="Slideshow art/Join_the_discord.jpg">
+
+	</div>
+
+</div>
+
+<br>
+<div style="text-align:center">
+	<span class="dot"></span>
+	<span class="dot"></span>
+</div>
+<script>
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		var dots = document.getElementsByClassName("dot");
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		slideIndex++;
+		if (slideIndex > slides.length) { slideIndex = 1 }
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex - 1].style.display = "block";
+		dots[slideIndex - 1].className += " active";
+		setTimeout(showSlides, 5000); 
+	}
+</script>
+<!-- End of Slideshow gallery-->
+<div>
+<div class = "mangaOne" onclick="myFunction()">
+	<script>
+function myFunction() {
+  alert("Please login or register to view comic");
+}
+</script>
+	
+	<a class = "photoOne" ></a>
+	<div class = "textOne">
+	<p> Jujutsu Kaisen</p>
+</div>
+</div>
+
+<div class = "mangaTwo" onclick="myFunction()">
+	<script>
+function myFunction() {
+  alert("Please login or register to view comic");
+}
+</script>
+	<a class = "photoTwo"></a>
+	<div class = "textOne">
+		<p>Kill The Hero</p>
+</div>
+</div>
+
+<div class = "mangaThree"onclick="myFunction()">
+	<script>
+function myFunction() {
+  alert("Please login or register to view comic");
+}
+</script>
+	<a class = "photoThree"></a>
+	<div class = "textOne">
+		<p>Mashle</p>
+</div>
+</div>
+<div class = "mangaFour"onclick="myFunction()">
+	<script>
+function myFunction() {
+  alert("Please login or register to view comic");
+}
+</script>
+	<a class = "photoFour"></a>
+	<div class = "textOne">
+	<p>My Dad Is Too Strong</p>
+</div>
+</div>
+<div class = "mangaFive"onclick="myFunction()">
+	<script>
+function myFunction() {
+  alert("Please login or register to view comic");
+}
+</script>
+	<a class = "photoFive"></a>
+	<div class = "textOne" onclick="myFunction()">
+	<script>
+function myFunction() {
+  alert("Please login or register to view comic");
+}
+</script>
+	<p>Nande Koko ni Sensei ga</p>
+</div>
+</div>
+<div class = "mangaSix" onclick="myFunction()">
+	<script>
+function myFunction() {
+  alert("Please login or register to view comic");
+}
+</script>
+	<a class = "photoSix"></a>
+	<div class = "textOne">
+	<p>Peerless Dad</p>
+</div>
+</div>
+<div class = "mangaSeven" onclick="myFunction()">
+	<script>
+function myFunction() {
+  alert("Please login or register to view comic");
+}
+</script>
+	<a class = "photoSeven"></a>
+	<div class = "textOne">
+	<p>Switch (Atsushi Namikiri)</p>
+</div>
+</div>
+<div class = "mangaEight" onclick="myFunction()">
+	<script>
+function myFunction() {
+  alert("Please login or register to view comic");
+}
+</script>
+	<a class = "photoEight"></a>
+	<div class = "textOne">
+	<p>Terra Formars</p>
+</div>
+</div>
+<div class = "mangaNine" onclick="myFunction()">
+	<script>
+function myFunction() {
+  alert("Please login or register to view comic");
+}
+</script>
+	<a class = "photoNine"></a>
+	<div class = "textOne">
+	<p>The Gamer</p>
+</div>
+</div>
+<div class = "mangaTen" onclick="myFunction()">
+	<script>
+function myFunction() {
+  alert("Please login or register to view comic");
+}
+</script>
+	<a class = "photoTen"></a>
+	<div class = "textOne">
+	<p>The Undefeatable Swordsman</p>
+</div>
+</div>
+
+
+</div>
+
+</body>
+</html>
